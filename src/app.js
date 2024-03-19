@@ -40,11 +40,11 @@ app.get("/weather" , (req,res)=>{
 })
 
 
-app.get("/" , (req,res)=>{
-    res.render('index' , {
-        title : "Weather App"
-    })
-})
+// app.get("/" , (req,res)=>{
+//     res.render('index' , {
+//         title : "Weather App"
+//     })
+// })
 
 
 app.listen(port , ()=>{
